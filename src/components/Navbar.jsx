@@ -10,6 +10,9 @@ const Navbar = () => {
         src={LOGO}
         alt="Logo"
       />
+      <p style={{
+        position:"absolute"
+      }}>Presents</p>
       <div className="image-container">
         <img src="https://res.cloudinary.com/dtks0l86r/image/upload/v1688038483/website-static-assets/Project%20Website/Homepage/Expert3_s0neuo.webp" alt="Expert"/>
         <img src="https://res.cloudinary.com/dtks0l86r/image/upload/v1688038483/website-static-assets/Project%20Website/Homepage/Expert3_s0neuo.webp" alt="Expert"/>

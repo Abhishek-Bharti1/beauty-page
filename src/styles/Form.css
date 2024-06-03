@@ -78,4 +78,11 @@
   .submit-button:hover {
     background: linear-gradient(90deg, #ff9966, #e84d84);
   }
+
+  @media screen and (max-width: 768px) {
+  
+    .form-header{
+      font-size: 3vw;
+    }
+    }
   
