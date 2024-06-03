@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Andika', sans-serif;
+}
+.home-container{
+  width: 35.2%;
+  margin: auto;
+  background: black;
+  height: 100%;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}
+
+.h2-head{
+  font-size: 2vw;
+  color: white;
+  line-height: 40px;
+}
+.apply-button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  width: 100%;
+}
+.clipped-image {
+  width: 60px;
+  height: 60px;
+  clip-path: circle(26px at center);
+  object-fit: cover;
+}
